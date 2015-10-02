@@ -1,0 +1,29 @@
+{
+  "name": "Spine",
+  "version": "1.0.0",
+  "description": "Web application template using backbone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mattwig/Spine.git"
+  },
+  "keywords": [
+    "backbone",
+    "javascript",
+    "template"
+  ],
+  "author": "Dan Mattwig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mattwig/Spine/issues"
+  },
+  "homepage": "https://github.com/Mattwig/Spine",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "grunt": "^0.4.5",
+    "hapi": "^10.1.0"
+  }
+}
