@@ -2,7 +2,7 @@
   "name": "Spine",
   "version": "1.0.0",
   "description": "Web application template using backbone",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,13 @@
   "dependencies": {
     "backbone": "^1.2.3",
     "grunt": "^0.4.5",
-    "hapi": "^10.1.0"
+    "grunt-concurrent": "^2.0.3",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "handlebars": "^4.0.3",
+    "hapi": "^10.1.0",
+    "inert": "^3.1.0",
+    "vision": "^3.0.0"
   }
 }
