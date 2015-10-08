@@ -1,13 +1,20 @@
+//Please update these styles and make it look pretty
+//Grunt will compile your less file into a css file in the public folder.
+
+
 .colors{
-  background-color: lighten(#000f0f, 70%);
+  display:flex;
+  background-color: lighten(#000000, 50%);
+  height:90vh;
   margin:0;
 }
 .title{
   font-size: 3em;
+  color:#ff6600;
   margin:0;
 }
 .menu {
-  background-color: #afffaa;
+  background-color: #000000;
   padding:0 2%;
   height: auto;
 }
@@ -21,12 +28,30 @@
   list-style: none;
   display:flex;
   width:10%;
-  background-color: lighten(#0935c6, 90%);
+  background-color: lighten(#CC0000, 10%);
   border:1px solid black;
+  &:hover{
+    box-shadow:0px 0px 3px white;
+  }
+}
+.center{
+  text-align: center;
+  margin:0 auto;
+  font-size:1.5em;
+  width:80%;
+}
+.center-two:extend(.center){
+  background-color: #ffffff;
+  width:100%;
+  border-radius: 20px;
+  display:none;
 }
 
 a{
   text-decoration: none;
   font-size: 1.5em;
   margin:0 auto;
+}
+body{
+  margin:0;
 }
