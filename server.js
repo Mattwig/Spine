@@ -44,6 +44,15 @@ server.register({
 //I will leave three examples in addition to the home page so you have an idea how it works
 server.route([
   {
+    //route to connect to your stylesheet
+    method:'GET',
+    path:'/{param*}',
+    handler: {
+      directory:{
+        path: 'public'
+      }
+    }
+  }, {
     //default route to your home page
   method: 'GET',
   path: '/',
@@ -62,12 +71,5 @@ server.route([
   method:'GET',
   path:'/interactive',
   handler:require("./handlers/interactive")
-}, {
-  //route to connect to your stylesheet
-  method:'GET',
-  path:'/public/css/style.css',
-  handler:function(req, reply){
-    reply.file("/public/css/style.css")
-  }
 }
 ]);
