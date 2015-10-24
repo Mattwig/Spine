@@ -1,5 +1,5 @@
 # Spine
-Think of this as the Spine to your application. It uses Backbone for structure, Hapi for server management and routing, LESS as a css preprocessor and Grunt as a task runner. Oh and Node, because reasons...
+An application application template to teach Backbone/Hapi and get you up and running quickly.
 
 This is not a production level template (although there is no reason it can't be). It is for the purpose of giving new Javascript developers easy tools to use and learn on their way to production level applications.
 
